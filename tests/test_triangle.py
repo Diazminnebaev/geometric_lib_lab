@@ -15,7 +15,3 @@ class TestTriangle(unittest.TestCase):
     def test_negative(self):
         with self.assertRaises(ValueError):
             area(-1, 2)
-
-# if __name__ == "__main__":
-#     unittest.main()
-

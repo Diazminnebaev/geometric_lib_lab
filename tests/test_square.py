@@ -11,7 +11,3 @@ class TestSquare(unittest.TestCase):
     def test_negative(self):
         with self.assertRaises(ValueError):
             perimeter(-3)
-
-# if __name__ == "__main__":
-#     unittest.main()
-
